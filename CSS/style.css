@@ -1,11 +1,30 @@
-.class_one{
+.class_one {
     color: brown;
 }
 
-h2{
-    color: blue;
-}
-
-.h2_green{
+.h2_green {
     color: green;
 }
+
+.font_class {
+    /* font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600; 
+    Жирность
+    font-style: italic;  */
+
+    font: italic 600 20px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Важна последовательность */
+}
+
+.text_class{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+    line-height: 24px;
+    /* Межстрочный интервал */
+    text-transform:capitalize;
+    /* capitalize - первые буквы, каждлого слова - большие */
+}
+
+
