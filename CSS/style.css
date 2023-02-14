@@ -27,4 +27,20 @@
     /* capitalize - первые буквы, каждлого слова - большие */
 }
 
+/* body{
+    background-color: darkseagreen;
+    background-image: url(../img/5.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background: darkseagreen url(../img/5.jpg) top center no-repeat;
+    color: white;
+} */
 
+.divwidth{
+    width: 400px;
+    background-color: darkslategray;
+    color: white;
+    height: 100px;
+    overflow: auto;
+}
