@@ -44,3 +44,22 @@
     height: 100px;
     overflow: auto;
 }
+
+.border_class{
+    border: 3px deeppink solid;
+    text-align: center;
+    border-top: 2px dotted green;
+    border-bottom: 2px double blue;  
+    border-radius: 40px;
+
+    /* Внутренний отступ */
+    padding: 30px 60px 30px 60px;
+
+    /* Внешние отступы */
+    margin: 30px 60px;
+    
+    
+
+
+}
+
