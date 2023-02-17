@@ -17,13 +17,13 @@
     /* Важна последовательность */
 }
 
-.text_class{
+.text_class {
     text-align: center;
     color: darkred;
     text-decoration: underline;
     line-height: 24px;
     /* Межстрочный интервал */
-    text-transform:capitalize;
+    text-transform: capitalize;
     /* capitalize - первые буквы, каждлого слова - большие */
 }
 
@@ -37,7 +37,7 @@
     color: white;
 } */
 
-.divwidth{
+.divwidth {
     width: 400px;
     background-color: darkslategray;
     color: white;
@@ -45,11 +45,11 @@
     overflow: auto;
 }
 
-.border_class{
+.border_class {
     border: 3px deeppink solid;
     text-align: center;
     border-top: 2px dotted green;
-    border-bottom: 2px double blue;  
+    border-bottom: 2px double blue;
     border-radius: 40px;
 
     /* Внутренний отступ */
@@ -62,10 +62,34 @@
     box-sizing: border-box;
 }
 
-.edClass{
+.edClass {
     border: 2px aqua solid;
     margin: 30px auto;
     padding: 0 2%;
     width: 50vw;
     font-size: 1.2em;
+}
+
+.floatClass {
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
+.clr{ 
+    clear: both;
+}
+
+.vision {
+    border: 2px red solid;
+    margin: 30px auto;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+
+    visibility: visible;
+    opacity: 0.7;
+    display: block;
+
 }
